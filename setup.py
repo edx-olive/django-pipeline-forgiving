@@ -24,6 +24,6 @@ setup(
     long_description=open('README.rst').read() if exists("README.rst") else "",
     # Any requirements here, e.g. "Django >= 1.1.1"
     install_requires=[
-        'django-pipeline'
+        'django-pipeline==1.7.0'
     ],
 )
